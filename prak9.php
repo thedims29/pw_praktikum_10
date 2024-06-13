@@ -7,10 +7,11 @@
  <title>Praktikum 9</title>
 </head>
 <body>
- <form action="action.php" method="GET">
- User : <input type="text" name="user" id=""><br>
- Password: <input type="password" name="pass" id=""><br>
- <input type="submit" value="PROSES">
+ <form method="POST" action="action.php">
+ Nama : <input type="text" name="nama"> <br>
+ Email : <input type="text" name="email"> <br>
+ Pesan : <textarea name="pesan"> </textarea> <br>
+ <input type="submit" value="Submit">
  </form>
 </body>
 </html>
